@@ -1,0 +1,6 @@
+.idea
+.mypy_cache
+docker-stack.yml
+.pytest_cache
+__pycache__
+app.egg-info
