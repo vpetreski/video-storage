@@ -14,7 +14,7 @@ Some important notes:
 - Everything is covered with tests, but as always - potential improvement could be to increase test coverage.
 - Email functionality won't work until you add credentials in `.env` file.
 - Two video files are provided for testing purposes under [etc](etc) folder.
-- I did nice configuration with Traefik proxy, so that's why I didn't want to mess up with `restapi-challenge-nework` requirement to block the internet, but I just want to show that it would be easy to do it in Docker Compose: 1) name the network as requested and 2) configure the nework with `internal: true`
+- I did nice configuration with Traefik proxy, so that's why I didn't want to mess up with `restapi-challenge-network` requirement to block the internet, but I just want to show that it would be easy to do it in Docker Compose: 1) name the network as requested and 2) configure the network with `internal: true`
 - So, there are 3 main components:
     - Backend - Video Storage
     - Backend - Auth & User Management
